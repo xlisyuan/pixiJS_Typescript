@@ -1,0 +1,26 @@
+{
+  "name": "pixi5_ts_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js  --inline --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi-particles": "^4.3.0",
+    "pixi-spine": "^2.1.9",
+    "pixi.js": "^5.3.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "copy-webpack-plugin": "^6.0.3",
+    "http-server": "^0.12.3",
+    "typescript": "^3.9.7",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
